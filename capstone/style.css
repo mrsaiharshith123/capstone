@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  scroll-behavior: smooth;
+}
+#hero {
+  height: 100vh;
+  background-color: #14213d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.textarea {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.textarea h1,
+.textarea h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.textarea h1 {
+  font-size: 3.5rem;
+}
+
+.textarea h2 {
+  font-size: 2rem;
+}
+
+.textarea .highlight {
+  color: #fca311;
+  font-weight: 500px;
+}
+/* smtgh */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* umm now image */
+#about{
+    padding-bottom: 20px;
+}
+.content img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+/*  um idk */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.image {
+  flex: 1;
+  text-align: right;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 80px;
+}
+.text h1 {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #14213d;
+  margin-top: 80px;
+}
+.text p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 11px;
+}
+.text p .thx {
+  font-weight: 100;
+  color: #333;
+}
+.text a {
+  color: #fca311;
+}
+.text .umm {
+  margin-bottom: 0;
+}
+.text .nikki {
+  margin: 0;
+}
+
+.text .int {
+  margin-top: 50px;
+  font-size: 16px;
+}
+
+/* projects  */
+#projects {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .con {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .items {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 31%;
+    margin-bottom: 20px;
+  }
+  
+  .items img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .items h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .items p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #fca311;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+  }
+  
+  .btn:hover {
+    background-color: #fca311;
+  }
+.contact{
+    background-color: #fca311;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    outline: none;
+}
+.contact:hover {
+    background-color: #fca311;
+  }
+
+
+/*  */
+#Contact {
+    height: 100vh;
+    position: relative;
+}
+
+.container img{
+    height: 250px;
+    margin-top: 100px;
+    display: block;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container p img{
+    height: 30px;
+    display: inline;
+    margin: 0 10px;
+}
+
+.container p {
+    margin-top: 40px;
+    font-family: 'Merriweather', serif;
+}
+
+.container .phone{
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.whatsapp{
+    background-color: #fca311;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    outline: none;
+}
+
+.whatsapp:hover {
+    background-color: #fca311;
+}
+.container a{
+    color: #14213d;
+}
